@@ -1,4 +1,4 @@
-.menu-section{background-color: #266b5d;}
+.menu-section{background-color: #4879FE;}
 .menu-bar{  padding: 5px 20px;}
 .menu li{
 list-style: none;
@@ -10,6 +10,16 @@ color: #ffffff ;
 }
 .menu li:hover{
   color: #FF6F00;
+}
+.offcanvas-body li{
+  list-style: none;
+  text-align: center;
+  margin: 10px 0;
+}
+.offcanvas-body  a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 .login, .signup{
   border: 0;
@@ -26,3 +36,45 @@ color: #ffffff ;
   background-color: #FF6F00;
 }
 
+/* footer css */
+
+.footer{
+  background-color: rgb(229, 231, 233);
+  padding:100px 0;
+}
+.footer li a{
+  text-decoration: none;
+ color: black;
+  font-weight: bold;
+}
+.footer li{
+  list-style: none;
+  margin: 10px 0;
+}
+
+.social-icons li{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+ }
+ .instagram{
+  background: linear-gradient(#4E5CC7,#e01d47,#FF7638);
+ }
+ .facebook{
+  background-color: #1E8AED;}
+ .youtube{
+  background-color: #E10404;
+ }
+ .footer h5{
+   color: #4879FE;
+   font-size: 22px;
+ }
+
+ .footer input{
+   padding: 10px;
+   width: 100%;
+   outline: none;
+ }
