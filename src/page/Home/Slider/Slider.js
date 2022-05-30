@@ -1,27 +1,41 @@
 import React from 'react';
-
+import slider1 from '../../../img/slider-1.jpg'
+import slider2 from '../../../img/slider-2.jpg'
+import slider3 from '../../../img/slider-3.jpg'
 const Slider = () => {
   return (
-    <div className=''>
+    <div >
      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://images.unsplash.com/photo-1653287805993-9a1a7ea28c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1604&q=80" class="d-block" alt="..."/>
+      <img src={slider1} class="d-block" alt="..."/>
+     <div class="carousel-caption d-none d-md-block">
+     <h2 className='fw-normal'>AP-701 & UD-701N</h2>
+     <h1>Unconstrained dynamism and fascinating versatility</h1>
+     </div>
     </div>
     <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1653896775515-ae85244f58a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1458&q=80" class="d-block" alt="..."/>
+      <img src={slider2} class="d-block" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+     <h2 className='fw-normal'>AX-505</h2>
+     <h1>State-of-the-art Stereo Amplifier </h1>
+     </div>
     </div>
     <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1653896776084-d311e7042d78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1577&q=80" class="d-block" alt="..."/>
+      <img src={slider3} class="d-block" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+     <h2 className='fw-normal'>PE-505</h2>
+     <h1>Fully-Balanced phono Amplifier</h1>
+     </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+    <span class="">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+    <span class="">Next</span>
   </button>
 </div>
     </div>
