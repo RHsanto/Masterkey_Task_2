@@ -1,0 +1,28 @@
+.menu-section{background-color: #255D52;}
+.menu-bar{  padding: 10px 20px;}
+.menu li{
+list-style: none;
+display: inline-block;
+margin-right: 30px;
+font-size: 18px;
+font-weight: 600;
+color: #ffffff ;
+}
+.menu li:hover{
+  color: #FF6F00;
+}
+.login, .signup{
+  border: 0;
+  padding: 10px 30px;
+  margin: 0 5px;
+  border-radius: 50px;
+}
+.login, .signup:hover{
+  background-color: white;
+  color: black;
+}
+.signup, .login:hover{
+  color: white;
+  background-color: #FF6F00;
+}
+
