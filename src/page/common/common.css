@@ -1,10 +1,10 @@
-.menu-section{background-color: #255D52;}
-.menu-bar{  padding: 10px 20px;}
+.menu-section{background-color: #266b5d;}
+.menu-bar{  padding: 5px 20px;}
 .menu li{
 list-style: none;
 display: inline-block;
 margin-right: 30px;
-font-size: 18px;
+font-size: 17px;
 font-weight: 600;
 color: #ffffff ;
 }
