@@ -21,17 +21,17 @@ const Footer = () => {
          <div className="col-lg-2">
          <h5>Active Link</h5>
               <div>
-               <li><Link to='/#'>ABOUT</Link> </li>
-               <li><Link to='/#'>PRODUCTS</Link> </li>
-               <li><Link to='/#'>BLOG</Link> </li>
-               <li><Link to='/#'> CONTACT US</Link></li>
+               <li><Link to='/about'>ABOUT</Link> </li>
+               <li><Link to='/product'>PRODUCTS</Link> </li>
+               <li><Link to='/blog'>BLOG</Link> </li>
+               <li><Link to='/contact'> CONTACT US</Link></li>
               </div>
          </div>
          <div className="col-lg-2">
          <h5>Active Link</h5>
               <div>
-               <li><Link to='/#'>SIGN UP</Link> </li>
-               <li><Link to='/#'>LOG IN</Link> </li>
+               <li><Link to='/sign-up'>SIGN UP</Link> </li>
+               <li><Link to='/log-in'>LOG IN</Link> </li>
                <li><Link to='/#'> ADVERTISE</Link></li>
               </div>
          </div>
