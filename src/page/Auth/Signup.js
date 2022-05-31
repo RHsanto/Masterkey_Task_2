@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookF } from 'react-icons/fa';
 import signup from '../../img/sign-up.jpg'
 const Signup = () => {
 
@@ -32,10 +31,6 @@ const Signup = () => {
                <button type='submit' className='btn btn-primary'>LOGIN</button>
              </div>
         
-           
-         
-     {/* here end sign up form */}
-
       
       {/* signup link */}
         <p className="text-center mt-4">I'm already a member?
