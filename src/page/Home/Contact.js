@@ -26,9 +26,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="col-lg-6">
-          <div className="contact-info shadow p-5 w-75 h-75 mx-auto">
+          <div className="contact-info shadow p-5 mx-auto">
             <h5><ImLocation2/> Dhaka, Bangladesh</h5>
-            <h5><BsTelephoneFill/> +0188745235</h5>
+            <h5 className='my-4'><BsTelephoneFill/> +0188745235</h5>
             <h5><GrMail/> market123@gmail.com</h5>
           </div>
         </div>
