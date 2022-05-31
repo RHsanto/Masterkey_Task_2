@@ -2,6 +2,7 @@
   width: 100%;
   object-fit: cover;
   object-position: center;
+  height: 700px;
 }
 .carousel-caption {
   top: 35%;
@@ -19,3 +20,17 @@
   width: 100%;
 }
 
+/* about css */
+.about{
+background-color: #F3F4F8;
+}
+.a-img img{
+  width: 100%;
+
+}
+
+/* sign in img */
+.s-img{
+  width: 100%;
+
+}

@@ -14,15 +14,15 @@ const Navbar = () => {
           <div className=" d-flex align-items-center">
             <div className="menu">
           <Link to='/'><li>HOME</li></Link>
-          <Link to='#'><li>ABOUT</li></Link>
-          <Link to='#'><li>SERVICES</li></Link>
-          <Link to='#'><li>BLOG</li></Link>
-          <Link to='#'><li>CONTACT US</li></Link>
+          <Link to='/about'><li>ABOUT</li></Link>
+          <Link to='/product'><li>PRODUCTS</li></Link>
+          <Link to='/blog'><li>BLOG</li></Link>
+          <Link to='/contact'><li>CONTACT US</li></Link>
             </div>
 
             <div>
-             <button className='login'>LOGIN</button>
-             <button className='signup'>SIGNUP</button>
+           <Link to='/log-in'><button className='login'>LOGIN</button></Link>
+           <Link to='/sign-up'> <button className='signup'>SIGNUP</button></Link>
             </div>
           </div>
         </div>
@@ -46,10 +46,10 @@ const Navbar = () => {
   </div>
   <div class="offcanvas-body ">
    <Link to='/'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">HOME</li></Link>
-   <Link to='#'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">ABOUT</li></Link>
-   <Link to='#'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">SERVICES</li></Link>
-   <Link to='#'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">BLOG</li></Link>
-   <Link to='#'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">CONTACT US</li></Link>
+   <Link to='/about'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">ABOUT</li></Link>
+   <Link to='/product'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">PRODUCTS</li></Link>
+   <Link to='/blog'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">BLOG</li></Link>
+   <Link to='/contact'><li class="text-reset" data-bs-dismiss="offcanvas"aria-label="Close">CONTACT US</li></Link>
   </div>
 </div>
           </div>
