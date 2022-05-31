@@ -9,21 +9,21 @@ const Slider = () => {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={slider1} class="d-block" alt="..."/>
-     <div class="carousel-caption d-none d-md-block">
-     <h2 className='fw-normal'>AP-701 & UD-701N</h2>
+     <div class="carousel-caption d-none d-md-block animate__bounceInDown animate__animated" >
+     <h2 className='fw-normal' >AP-701 & UD-701N</h2>
      <h1>Unconstrained dynamism and fascinating versatility</h1>
      </div>
     </div>
     <div class="carousel-item">
       <img src={slider2} class="d-block" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block animate__rollIn animate__animated">
      <h2 className='fw-normal'>AX-505</h2>
      <h1>State-of-the-art Stereo Amplifier </h1>
      </div>
     </div>
     <div class="carousel-item">
       <img src={slider3} class="d-block" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block animate__rotateInDownLeft animate__animated">
      <h2 className='fw-normal'>PE-505</h2>
      <h1>Fully-Balanced phono Amplifier</h1>
      </div>
